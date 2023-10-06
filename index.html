@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steak: O Açougue e Delivery Premium</title>
+     <!-- Remixicon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <!-- CSS -->
+     <link rel="stylesheet" type="text/css" href="style.css"/>
+         <!-- FONT-AWSOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+   <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Inclua o CSS do Slick Slider -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Inclua o tema padrão do Slick Slider (opcional) -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+    <header id="nav-container">
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a  class="logo_link" href="#"><h1 class="logo">S<span class="logo-anotherColor">teak</span></h1></a>
+
+        <nav class="nav" id="nav">
+          
+                <li id="nav-list" class="nav__list"> <a class="nav__link" href="index.html">Home</a></li>
+                <li id="nav-list" class="nav__list"> <a class="nav__link" href="#quem-somos">Quem Somos</a></li>
+                <li id="nav-list" class="nav__list"> <a class="nav__link" href="#produto">Produtos</a></li> 
+                 <li id="nav-list" class="nav__list"> <a class="nav__link" href="#contato">Contato</a></li>
+                <li id="nav-list" class="nav__list cesta-container">
+                  <a class="nav__link" href="cesta.html"><i class="ri-shopping-cart-2-line"></i></a>
+                </li>
+            <div class="icons_search">
+              <i class="ri-search-line" id="search_btn"></i>
+            </div>
+
+            <form action="" class="seach-bar-container">
+              <input type="search"id="search-bar" placeholder="Pesquise aqui..."/>
+              <label for="search-bar" class="ri-search-line" ></label>
+            </form>
+        </nav>
+    </header>
+
+<section id="home" class="slider">
+  <div class="slider-conteudo ">
+    <input type="radio" name="botao-radio" id="slider-radio1"/>
+    <input type="radio" name="botao-radio" id="slider-radio2"/>
+    <input type="radio" name="botao-radio" id="slider-radio3"/>
+
+    <div class="slide-img slider-img-primeiro">
+      <img class="img-desktop" src="/img/Só no melhor Resturante (1).png" alt="Informações">
+      
+    </div>
+    <div class="slide-img">
+      <img class="img-desktop" src="/img/2 (1).png" alt="Compras online -pedido online - delivery">
+
+    </div>
+    <div class="slide-img">
+      <img class="img-desktop" src="/img/Chama.png" alt="Filé especial 1">
+    
+    </div> 
+  
+
+    <div class="nav-slider-auto">
+        <div class="nav-slider-auto1"></div>
+        <div class="nav-slider-auto2"></div>
+        <div class="nav-slider-auto3"></div>
+    </div>
+    <div class="nav-slider-manual">
+        <label class="slider-manual-botao" for="slider-radio1"></label>
+        <label class="slider-manual-botao" for="slider-radio2"></label>
+        <label class="slider-manual-botao" for="slider-radio3"></label>
+
+    </div>
+  </div>
+</section>
+    
+<section id="quem-somos" class="quem-somos">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <h2 class="quem-somos__titulo">Sobre Nós</h2>
+              <p class="quem-somos__descricao">
+                  Bem-vindo ao Steak, o destino definitivo para os amantes de carne de qualidade! Somos apaixonados por oferecer os melhores produtos de açougue premium e uma experiência gastronômica inigualável. Desde a nossa fundação, estamos comprometidos em fornecer cortes de carne excepcionais, provenientes de fontes responsáveis e sustentáveis.
+              </p>
+              <h4 class="quem-somos__titulo">Nossa História</h4>
+              <p class="quem-somos__descricao">Fundada com paixão e dedicação em proporcionar uma experiência gastronômica única, a Steak nasceu da ideia de que a qualidade da carne é uma arte. Começamos como um pequeno açougue com uma visão ambiciosa: fornecer aos nossos clientes cortes de carne excepcionais, provenientes de fontes responsáveis e sustentáveis. </p>
+              <h4 class="quem-somos__titulo">Variedade de Seleção</h4> 
+              <p class="quem-somos__descricao">Oferecemos uma ampla variedade de cortes de carne, desde suculentos bifes até saborosas linguiças artesanais e opções de churrasco que farão sua boca salivar. Se você é um churrasqueiro experiente ou um amante de churrasco casual, temos algo para todos os paladares. Nossos cortes são perfeitamente preparados e embalados para garantir a frescura e o sabor excepcionais. </p>
+          </div>
+          <div class="col-lg-6">
+              <img src="img/sobreNos.png" alt="Foto de Min An - pexels" class="img-fluid quem-somos__imagem">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="equipe" class="equipe">
+  <div class="container">
+      <h2 class="equipe__titulo">Nossa Equipe</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="equipe__membro">
+                  <img src="img/funcionaria1.jpg" alt="Foto do Membro da Equipe 1" class="img-fluid">
+                  <h4 class="equipe__nome">Elaine Almeida</h4>
+                  <p class="equipe__cargo">Churrasqueira Chefe</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="equipe__membro">
+                  <img src="img/perfil1.jpg" alt="Foto do Membro da Equipe 2" class="img-fluid">
+                  <h4 class="equipe__nome">Luke Bravenboer</h4>
+                  <p class="equipe__cargo">Especialista em Carnes</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="equipe__membro">
+                  <img src="img/funcionaria3.jpg" alt="Foto do Membro da Equipe 3" class="img-fluid">
+                  <h4 class="equipe__nome">Alessa Soares</h4>
+                  <p class="equipe__cargo">Sommelier de Carnes</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="depoimentos" class="depoimentos">
+  <div class="container">
+      <h2 class="depoimentos__titulo">Depoimentos de Clientes</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="depoimento">
+                  <img src="img/funcionaria2.jpg" alt="Foto do Cliente 1" class="img-fluid depoimento__imagem">
+                  <h4 class="depoimento__nome">Leandra Rodrigues</h4>
+                  <img class="fiveStar" src="img/five stars.png" alt="Estrelas da avaliação">
+                  <p class="depoimento__texto">"A carne do Steak é simplesmente incrível! Sempre fresca e saborosa. Não compro em outro lugar!"</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="depoimento">
+                  <img src="img/perfil2.jpg" alt="Foto do Cliente 2" class="img-fluid depoimento__imagem">
+                  <h4 class="depoimento__nome">João Pedro</h4>
+                  <img class="fiveStar" src="img/five stars.png" alt="Estrelas da avaliação">
+                  <p class="depoimento__texto">"Entrega rápida e produtos de alta qualidade. Recomendo para todos os amantes de carne."</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="depoimento">
+                  <img src="img/perfil3.jpg" alt="Foto do Cliente 3" class="img-fluid depoimento__imagem">
+                  <h4 class="depoimento__nome"> Fernanda Ferreira</h4>
+                  <img class="fiveStar" src="img/five stars.png" alt="Estrelas da avaliação">
+                  <p class="depoimento__texto">"Meus churrascos nunca foram os mesmos desde que comecei a comprar na Steak. A melhor escolha!"</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<section id="produto">
+    <h2>Ofertas da semana: </h2>
+
+
+
+ <div class="produto-slider">
+  <i  id="left"  class="ri-arrow-left-s-line"></i>
+    <ul class="produto-carrosel">
+      
+      <li   class=" teste produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img src="/img/frango-file.jpg" alt="Filé de peito de frango Imagem do Freepik" draggable="false"/></div>
+        <h5>Filé de peito de frango</h5>
+        <p class=" preco ">R$15,90<span style="font-size: 12px;">Kg</span></p>
+        <h5 class="oferta" > Produto em oferta </h5>
+      </li>
+      </li>
+      <li class="produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img src="/img/asas-de-frango-Imagem de jcomp no Freepik.jpg" alt="Imagem de asas-de-frango-Imagem de jcomp no Freepik" draggable="false"/></div>
+        <h5>Asa de frango</h5>
+        <p class="preco">R$12,90 <span style="font-size: 12px;">Kg</span></p>
+        <h5 class="oferta" > Produto em oferta </h5>
+      </li>
+      </li>
+      <li class="produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img src="/img/bife-de-costeleta-de-porco-Imagem de jcomp no Freepik.jpg" alt="Imagem de bife-de-costeleta-de-porco-Imagem de jcomp no Freepik" draggable="false"/></div>
+        <h5> Bife costeleta de porco</h5>
+        <p class="preco">R$19,90 <span style="font-size: 12px;">Kg</span></p>
+        <h5 class="oferta" > Produto em oferta </h5>
+      </li>
+      <li class="produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img src="/img/frango - Imagem de mdjaff no Freepik.jpg" alt="Imagem de frango - Imagem de mdjaff no Freepik" draggable="false"/></div>
+        <h5> Frango Caipira</h5>
+        <p  class="preco">R$19,90 <span style="font-size: 12px;">Kg</span></p>
+        <h5 class="oferta" > Produto em oferta </h5>
+      </li>
+      <li class="produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img src="/img/frango -Imagem de azerbaijan_stockers no Freepik.jpg" alt="Imagem de frango -Imagem de azerbaijan_stockers no Freepik" draggable="false"/></div>
+        <h5>Frango inteiro</h5>
+        <p class="preco">R$20,90 <span style="font-size: 12px;">Kg</span></p>
+        <h5 class="oferta" > Produto em oferta </h5>
+      </li>
+      <li class="produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img  style="height: 200px;" src="/img/tilapia-crua.jpg" alt="Imagem de tilapia - Imagem de Freepik" draggable="false"/></div>
+        <h5>Filé de tilapia</h5>
+        <p class="preco">R$25,90 <span style="font-size: 12px;">Kg</span></p>
+        <h5 class="oferta" > Produto em oferta </h5>
+      </li>
+      <li class="produto-carrosel-item">
+        <div class="produto-carrosel-item-img"><img style="height: 220px;" src="/img/coxa de frango.jpg" alt="Imagem de coxa de frango - Imagem de Freepik" draggable="false"/></div>
+        <h5>Coxa de frango</h5>
+        <p class="preco">R$19,90 <span style="font-size: 12px;">Kg</span></p>
+        <h5  style="padding-bottom: 2px;"> <a class="oferta"  href="https://web.whatsapp.com/">Produto em oferta</a>  </h5>
+
+      </li>
+    </ul>
+ 
+<i id="right" class="ri-arrow-right-s-line"></i>
+ </div>
+
+
+     <h2 style="padding-top: 105px;">Produtos: </h2>
+
+     <div class="dropdown-container">
+      <div class="custom-select">
+        <select id="dropdown" class="select-dropdown">
+          <option class="opcoes-drop" value="selecionar">Selecione uma opção</option>
+          <option class="opcoes-drop" value="carneExoticas">Carnes Exóticas</option>
+          <option class="opcoes-drop" value="carnesNobres">Carnes Nobres</option>
+        </select>
+      </div>
+    </div>
+
+<section class="manipulando-produto">
+  <div class="produto-container" id="carneExoticas">
+     <h6>Carnes Exóticas </h6>
+ <div class=" produto-item ">
+     <img class="produto-pedido-img" src="/img/Cordeiro.jpg" alt="Imagem de carne de Cordeiro do u_rt5bpvly por Pixabay"/>
+      <h3>Filé de cordeiro</h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+    
+    <div class=" produto-item ">
+     <img class="produto-pedido-img" src="/img/Pato defumado.jpg" alt="Imagem de Pato defumado de Eak K. por Pixabay"/>
+      <h3>Pato defumado</h3>
+      <p class="produto-pedido-preco">R$35,90</p>
+     
+      <a class="produto-pedido-botao"  href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+    
+    <div class=" produto-item ">
+      <img class="produto-pedido-img" src="/img/carne de rã.jpg" alt="Carne de rã"/>
+      <h3>Carne de rã </h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+
+    <div class=" produto-item ">
+      <img class="produto-pedido-img" src="/img/perna-de-cordeiro.jpg" alt="Imagem de perna de cordeiro na freepik"/>
+      <h3>Coixa de Cordeiro</h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+  </div>
+
+  <div class="produto-container" id="carnesNobres" >
+    <h6 > Carnes Nobres </h6>
+    <div class="produto-item ">
+      <img class="produto-pedido-img" src="/img/maminha.jpg" alt="Carne Maminha, imagem do site freepik."/>
+      <h3>Maminha</h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+
+    <div class="produto-item ">
+      <img class="produto-pedido-img" src="/img/picanha.jpg" alt="Carne picanha, imagem do site freepik."/>
+            <h3>Picanha</h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+    <div class="produto-item ">
+      <img class="produto-pedido-img" src="/img/Kobe Beef.jpg" alt="Carne Kobe Beef, imagem do site freepik."/>
+      <h3>Kobe Beef</h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+    <div class="produto-item ">
+      <img class="produto-pedido-img" src="/img/alcatra.jpg" alt="Carne Alcatra, imagem do site freepik."/>
+      <h3>Alcatra</h3>
+      <p  class="produto-pedido-preco">R$35,90</p>
+     
+     <a class="produto-pedido-botao" href="https://web.whatsapp.com/">Fazer o pedido <i class="ri-shopping-cart-line"></i></a>
+    </div>
+  </div>
+  
+ </section>
+</section>
+
+
+
+<section id="contato" class="section-Contato">
+  <h2>Contato</h2>
+
+    <div class="contato-container">
+        <div class="contato-formulario">
+        <h3>Fale conosco</h3>
+        <form id="contato-form">
+          <input type="text" id="nome" placeholder="Digite Seu nome..." ><br>
+          <input type="email" id="email" placeholder="Digite Seu e-mail..." ><br>
+          <input type="text" id="celular" placeholder="Digite Seu número..." ><br>
+
+          <input type="radio" name="tipoCarne" class="radio-button">
+          <label for="carnesExoticas">Carne Exóticas</label><br>
+
+          <input type="radio" name="tipoCarne" class="radio-button">
+          <label for="carnesTradicionais">Carnes tradicionais</label><br>
+
+          <input type="radio" name="tipoCarne" id="todosMeios" class="radio-button">
+          <label for="todosMeios">Todos os meios</label><br>
+
+          <div class="dropdown-container-formulario formulario-dropdown-formulario">
+              <div class="custom-select">
+                  <select name="tiposDeCarnes" id="dropdown-formulario" class="select-dropdown-formulario">
+                      <option class="opcoes-drop">Tipo de carne favorita:</option>
+                      <option class="opcoes-drop">Bovina</option>
+                      <option class="opcoes-drop">Suína</option>
+                      <option class="opcoes-drop">Aves</option>
+                      <option class="opcoes-drop">Frutos do Mar</option>
+                      <option class="opcoes-drop">Outras</option>
+                  </select>
+              </div>
+          </div>
+
+        
+        <textarea id="message" placeholder="Mensagem" ></textarea><br>
+
+        <label for="termo">Eu concordo com os termos e condições </label>
+        <input type="checkbox" id="termo" /><br>
+        
+        <input id="contato-button" type="submit" value="Enviar">
+
+        </form>
+        <p style="width: 500px " class="alerta"></p>
+        <p class="alertaDeEnvio"></p>
+        </div>
+
+
+        <div class="contato-informacao ">
+            <h3>Endereço</h3>
+            <table>
+              <tr>
+                  <th>Endereço:</th>
+                  <td><a href="https://www.google.com/maps/search/shopping+iguatemi/@-3.7559266,-38.492129,17z/data=!3m1!4b1?entry=ttu">Av. Washington Soares, 85</a></td>
+              </tr>
+              <tr>
+                  <th>Cidade:</th>
+                  <td>Fortaleza</td>
+              </tr>
+              <tr>
+                  <th>Estado:</th>
+                  <td>Ceará</td>
+              </tr>
+              <tr>
+                  <th>CEP:</th>
+                  <td>12345-678</td>
+              </tr>
+              <tr>
+                  <th>Telefone:</th>
+                  <td><a href="https://web.whatsapp.com/">(85) 3456-7890</a></td>
+              </tr>
+              <tr>
+                  <th>Email:</th>
+                  <td><a href="mailto:suporte@mealmeat.com.br">suporte@steak.com.br</a></td>
+              </tr>
+            </table>
+            <tr>
+              <td>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31851.200732230747!2d-38.55324625968932!3d-3.7226124336140476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7484ecbab99ad%3A0x237e752f04e02ba3!2sMuseu%20de%20Arte%20Contempor%C3%A2nea%20do%20Cear%C3%A1%20-%20MAC!5e0!3m2!1spt-BR!2sbr!4v1661656562302!5m2!1spt-BR!2sbr"
+                width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </td>
+            </tr>
+        </div>
+    </div>
+  
+</section>
+
+
+
+
+  <footer class="footer">
+    <div class="redes-sociais">
+        <a  href="#" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+           Facebook
+          </a>
+        <a  href="#" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+          Instagram</a>
+        <a  href="#" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
+    </div>
+    <div class="copyright">
+        © 2023 Steak: O Açougue e Delivery Premium. Todos os direitos reservados.
+    </div>
+</footer>
+    <script src="js.js" defer></script>
+
+</body>
+</html>
