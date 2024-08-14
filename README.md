@@ -17,8 +17,8 @@ Este é o repositório para o site **Steak: O Açougue e Delivery Premium**, cri
 
 - **HTML5**
 - **CSS3**
-  - Bootstrap para responsividade
-  - Slick Slider para o carrossel de imagens
+- Bootstrap para responsividade
+- Slick Slider para o carrossel de imagens
 - **JavaScript**
 - **Remixicon** e **Font-Awesome** para ícones
 
